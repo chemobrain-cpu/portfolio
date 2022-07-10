@@ -4,11 +4,11 @@
   "description": "backend API for eazkon",
   "main": "app.js",
   "scripts": {
-    "start":"nodemon server/app.js",
-    "client":"npm start --prefix client",
+    "start": "nodemon server/app.js",
+    "client": "npm start --prefix client",
     "test": "npm test",
-    "dev":"concurrently \"npm start\" \"npm run client \" ",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix client $$ npm run build --prrefix client"
+    "dev": "concurrently \"npm start\" \"npm run client \" ",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client $$ npm run build --prrefix client"
   },
   "author": "presh Devops",
   "license": "MIT",
@@ -33,6 +33,6 @@
     "validator": "^13.7.0"
   },
   "engines": {
-    "node":"14.15.4"
+    "node": "14.15.4"
   }
 }
