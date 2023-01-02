@@ -4,7 +4,7 @@ import { BsArrowLeft, BsArrowRight } from "react-icons/bs"
 export const Slider = ({ items, Heading }) => {
   const [data, setData] = useState(items.review)
   const [curSlide, setCurSlide] = useState(0)
-  console.log(setData)
+  
 
   const checkIndex = (position) => {
     if (position > data.length - 1) {

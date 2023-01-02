@@ -28,6 +28,7 @@ button {
   @include flex(space-between, none, none);
   padding: $p-xl;
   background-color: transparent;
+  width:100%
 }
 .side {
   width: $w-sm;

@@ -4,6 +4,7 @@
     .menu {
       display: none;
     }
+
     .mobile-nav {
       display: block;
       width: 100%;
@@ -11,51 +12,151 @@
       @include absolute;
       height: 100vh;
       z-index: 999;
+
       span {
         display: none;
       }
+
       li {
         margin: 30px;
+
         a {
           font-size: 1.8rem;
-          font-weight:400
+          font-weight: 400
         }
       }
     }
+
     .icons {
       @include absolute;
       z-index: 10000;
       top: 60px;
       width: 100%;
       left: 35%;
-      background:none
+      background: none;
+      color:red
     }
   }
+
   .main-div {
     flex-direction: column;
+
     .side {
       position: relative;
       width: $w-full;
       height: auto;
     }
+
     main {
       width: 100%;
     }
   }
+
   .about {
-    &_services {
-      &_boxs {
-        @include grids(2, 1fr, 40px);
-      }
-    }
-    &_price {
-      &_content {
-        @include grids(2, 1fr, 40px);
-      }
-    }
+
     /*my own responsiveness*/
+    &_details {
+      &_content {
+        @include grids(1, 1fr, 40px);
+        margin-bottom: 50px;
+
+        &_box {
+          @include flex(none, center, none);
+
+          &_text {
+            margin-left: 20px;
+
+            h4 {
+              font-weight: 500;
+            }
+
+            span {
+              color: $lightgray;
+            }
+          }
+        }
+      }
+
+      &_bio {
+        margin: 50px 0;
+
+        &_box {
+          @include grids(1, 1fr, 30px);
+
+          p {
+            color: $lightgray;
+            font-size: 14px;
+            line-height: 2;
+          }
+        }
+      }
+
+    }
 
 
     /*end of my own responsiveness */
+    &_services {
+      &_boxs {
+        @include grids(1, 1fr, 40px);
+      }
+    }
+
+    &_price {
+      &_content {
+        @include grids(1, 1fr, 40px);
+      }
+    }
+
+    &_sider {
+      position: relative;
+      margin: 50px 0;
+      width: 100%;
+
+      &_content {
+        .card {
+          @include cards(30px 0, none, $hover: false);
+         
+          display: flex;
+          flex-direction: column;
+          position: relative;
+
+          img {
+            border-radius: 50%;
+            margin-right: 30px;
+          }
+
+          /*&::after {
+            content: "❝";
+            position: absolute;
+            @include flex(center, center, center);
+            font-size: 40px;
+            bottom: 20px;
+            width: 60px;
+            height: 60px;
+            background: url("/images/back.png");
+            background-size: contain;
+          }
+          */
+          p {
+            font-style: italic;
+          }
+        }
+
+        &_slideButton {
+          width: 100%;
+          @include absolute;
+          left: 0;
+
+          button {
+            float: right;
+            @include icons(40px, 40px, $primary, 22px, 40px, $indigo);
+            border-radius: 0;
+            margin: 5px;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+
   }
 }

@@ -78,6 +78,27 @@ export const side = [
   },
 ]
 
+export const skill = [
+  {
+    id: 1,
+    num: 90,
+    text: "Html",
+    class: "skill1",
+  },
+  {
+    id: 2,
+    num: 50,
+    text: "Css",
+    class: "skill2",
+  },
+  {
+    id: 3,
+    num: 60,
+    text: "Scss",
+    class: "skill3",
+  },
+]
+
 export const about = [
   {
     deatils: [

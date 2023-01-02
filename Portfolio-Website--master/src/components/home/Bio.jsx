@@ -3,7 +3,8 @@ import React from "react"
 export const Bio = ({ items, Heading }) => {
   return (
     <>
-      <Heading title='Short Bio' />
+      <Heading title='About me' />
+
       <div className='about_details_bio'>
         {items.bio.map((val) => (
           <>
@@ -16,9 +17,6 @@ export const Bio = ({ items, Heading }) => {
               </div>
               <div className='about_details_bio_box_item'>
                 <p>{val.para3}</p>
-              </div>
-              <div className='about_details_bio_box_item'>
-                <img src={val.images} alt='' />
               </div>
             </div>
           </>

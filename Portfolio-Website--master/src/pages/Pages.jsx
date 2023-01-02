@@ -2,7 +2,7 @@ import React from "react"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { Header } from "../common/Header"
 import { Home } from "../components/home/Home"
-import { Resume } from "../components/page/Resume"
+import { Resume } from "../components/Resume/Resume"
 import { Portfolio } from "../components/page/Portfolio"
 import { Blog } from "../components/page/Blog"
 import { Contact } from "../components/page/Contact"
@@ -17,7 +17,7 @@ export const Pages = () => {
           <div className='side'>
             <SideContent />
           </div>
-          
+
           <main>
             <Header />
             <Routes>
