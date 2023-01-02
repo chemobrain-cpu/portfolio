@@ -5,8 +5,6 @@ import { skill} from "../../data/data";
 const Progress = ({ done, title, back }) => {
     return (
         <div className='progress'>
-
-
             <div className='progress_num'>
                 <h4>{done}.</h4>
             </div>
@@ -35,9 +33,9 @@ export const Skill = ({ items, Heading }) => {
     return (
         <>
             <Heading title='Technical Skills' />
-            <div className='sideContent_bottom_skill'>
+            <div className='skills'>
             {skill.map((item) => (
-              <div className='sideContent_skill_box'>
+              <div className = 'skill-box' >
                 <Progress title={item.text} done={item.num} back={item.class} />
               </div>
             ))}

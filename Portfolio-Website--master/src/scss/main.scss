@@ -3,6 +3,7 @@
 @import "side";
 @import "home";
 @import "responsive";
+@import "resume";
 
 body {
   background: url("../images/bg.png") no-repeat fixed top center $blue;
@@ -111,7 +112,7 @@ $backgrouds: (
 
 .pages {
   @extend .container;
-  height: 90vh;
   font-size: 50px;
   color: $primary;
+  padding-bottom: 10px;
 }

@@ -29,18 +29,7 @@ export const menu = [
     url: "/portfolio",
     icon: <FaRegLightbulb />,
   },
-  {
-    id: 4,
-    text: "blog",
-    url: "/blog",
-    icon: <CgCardClubs />,
-  },
-  {
-    id: 5,
-    text: "contact",
-    url: "/contact",
-    icon: <TbMailOpened />,
-  },
+  
 ]
 
 export const socialIcon = [
@@ -81,20 +70,68 @@ export const side = [
 export const skill = [
   {
     id: 1,
-    num: 90,
+    num: 60,
     text: "Html",
     class: "skill1",
   },
   {
     id: 2,
-    num: 50,
-    text: "Css",
+    num: 60,
+    text: "Css3",
     class: "skill2",
   },
   {
     id: 3,
     num: 60,
     text: "Scss",
+    class: "skill3",
+  },
+  {
+    id: 1,
+    num: 70,
+    text: "Javascript(Esnext)",
+    class: "skill1",
+  },
+  {
+    id: 3,
+    num: 40,
+    text: "Typescript",
+    class: "skill3",
+  },
+  {
+    id: 2,
+    num: 55,
+    text: "React",
+    class: "skill2",
+  },
+  {
+    id: 3,
+    num: 60,
+    text: "Express",
+    class: "skill3",
+  },
+  {
+    id: 3,
+    num: 50,
+    text: "Mongoose",
+    class: "skill3",
+  },
+  {
+    id: 3,
+    num: 60,
+    text: "React Native",
+    class: "skill3",
+  },
+  {
+    id: 3,
+    num: 50,
+    text: "Data Structures and Algorithm",
+    class: "skill3",
+  },
+  {
+    id: 3,
+    num: 50,
+    text: "Git/github",
     class: "skill3",
   },
 ]
@@ -142,8 +179,8 @@ export const about = [
       {
         id: 1,
         desc: "Amazing product i will say. He delivered a product that automate accounting and marketing in my small business. ",
-        name: "Mr Edward",
-        link: "Favour building enterprice",
+        name: "Lady Thanat",
+        link: "ll",
         cover: "./images/aut1.jpg",
       },
      
@@ -167,9 +204,9 @@ export const about = [
       {
         id: 3,
         icon: <FaShippingFast />,
-        title: "PRO PACKAGE",
-        desc: "Suitable for small business or Organizations.",
-        pri: "97.00s",
+        title: "Enterprise Website/application",
+        desc: "Suitable for big Organizations.",
+        pri: "1000",
       },
     ],
   },
