@@ -136,6 +136,66 @@ export const skill = [
   },
 ]
 
+export const projects = [
+  {
+    images:"./images/coinbase_1.png",
+  },
+  {
+    images:"./images/coinbase_2.png",
+  },
+  {
+    images:"./images/coinbase_3.png",
+  },
+  {
+    images:"./images/coinbase_4.png",
+  },
+  {
+    images:"./images/coinbase_5.png",
+  },
+  {
+    images:"./images/coinbase_6.png",
+  },
+  {
+    images:"./images/coinbase_7.png",
+  },
+  {
+    images:"./images/coinbase_8.png",
+  },
+]
+
+export const projects_2 = [
+  {
+    images:"./images/coinbase_web1.png",
+  },
+  {
+    images:"./images/coinbase_web2.png",
+  },
+  {
+    images:"./images/coinbase_web3.png",
+  },
+  {
+    images:"./images/coinbase_web4.png",
+  },
+  {
+    images:"./images/coinbase_web5.png",
+  },
+  {
+    images:"./images/coinbase_web6.png",
+  },
+  {
+    images:"./images/coinbase_web7.png",
+  },
+  {
+    images:"./images/coinbase_web8.png",
+  },
+  {
+    images:"./images/coinbase_web9.png",
+  },
+]
+
+
+
+
 export const about = [
   {
     deatils: [

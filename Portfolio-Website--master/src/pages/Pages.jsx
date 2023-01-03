@@ -3,9 +3,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { Header } from "../common/Header"
 import { Home } from "../components/home/Home"
 import { Resume } from "../components/Resume/Resume"
-import { Portfolio } from "../components/page/Portfolio"
-import { Blog } from "../components/page/Blog"
-import { Contact } from "../components/page/Contact"
+import { Portfolio } from "../components/portfolio/Portfolio"
+
 import { SideContent } from "../components/side/SideContent"
 
 export const Pages = () => {
@@ -24,8 +23,6 @@ export const Pages = () => {
               <Route path='/' element={<Home />} />
               <Route path='/resume' element={<Resume />} />
               <Route path='/portfolio' element={<Portfolio />} />
-              <Route path='/blog' element={<Blog />} />
-              <Route path='/contact' element={<Contact />} />
             </Routes>
           </main>
 

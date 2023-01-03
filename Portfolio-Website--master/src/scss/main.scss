@@ -2,8 +2,9 @@
 @import "header";
 @import "side";
 @import "home";
-@import "responsive";
 @import "resume";
+@import "portfolio";
+@import "responsive";
 
 body {
   background: url("../images/bg.png") no-repeat fixed top center $blue;
