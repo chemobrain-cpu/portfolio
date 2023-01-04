@@ -50,14 +50,6 @@ export const Slider = ({ items, Heading }) => {
             </>
           ))}
 
-          <div className='about_sider_content_slideButton'>
-            <button className='icon' onClick={nextSlide}>
-              <BsArrowRight />
-            </button>
-            <button className='icon' onClick={prevSlide}>
-              <BsArrowLeft />
-            </button>
-          </div>
         </div>
       </div>
     </>

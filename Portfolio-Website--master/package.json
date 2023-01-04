@@ -12,6 +12,8 @@
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
     "sass": "^1.54.5",
+    "serve": "^14.1.2",
+    "server": "^1.0.38",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -19,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "compile":"sass --watch "
+    "compile": "serve -s build "
   },
   "eslintConfig": {
     "extends": [

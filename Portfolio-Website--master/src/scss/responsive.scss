@@ -37,13 +37,16 @@
       color: red
     }
   }
+  .sideContent{
+    width:100%
+  }
 
   .main-div {
     flex-direction: column;
 
     .side {
       position: relative;
-      width: $w-full;
+      width: 100%;
       height: auto;
     }
 
@@ -53,6 +56,7 @@
   }
 
   .about {
+    width:100%;
 
     /*my own responsiveness*/
     &_details {
@@ -165,9 +169,10 @@
     .porfolio-image {
 
       &-box {
-        @include grids(1, 80%, 40px);
+        @include grids(1, 90%, 40px);
         overflow: hidden;
         object-fit: contain;
+        text-align: center;
 
         img {
           width:100%;
@@ -177,4 +182,7 @@
     }
 
   }
+
+
+
 }

@@ -125,7 +125,7 @@ export const skill = [
   {
     id: 3,
     num: 50,
-    text: "Data Structures and Algorithm",
+    text: "Algorithm",
     class: "skill3",
   },
   {

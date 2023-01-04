@@ -25,7 +25,7 @@
       margin: 50px 0;
 
       &_box {
-        @include grids(2, 1fr, 30px);
+        @include grids(1, 1fr, 30px);
 
         p {
           color: $lightgray;

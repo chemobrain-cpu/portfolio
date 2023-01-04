@@ -7,7 +7,7 @@ import React from "react";
 export const Experience = ({ items, Heading }) => {
     return (
         <>
-            <Heading title='Professional Experience' />
+            <Heading title=' Experience' />
             <div className='about_details_bio'>
 
                 <div className='about_details_bio_box'>
