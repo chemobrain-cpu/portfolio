@@ -16,6 +16,7 @@ header {
         font-size: 15px;
         font-weight: 500;
         @include zindex;
+        z-index: 1000;
       }
       span {
         color: $indigo;

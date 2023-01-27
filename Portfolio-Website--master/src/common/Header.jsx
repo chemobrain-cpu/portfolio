@@ -6,7 +6,9 @@ import { AiOutlineClose } from "react-icons/ai"
 
 export const Header = () => {
   const [mobile, setMobile] = useState(false)
-  const handleActive = () => {}
+  const handleActive = () => { 
+    
+  }
   return (
     <>
       <header>

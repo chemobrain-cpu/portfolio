@@ -10,7 +10,7 @@ export const Summary = ({ items, Heading,content,title }) => {
                     <div className='about_details_bio_box_item'>
                         <p>{content} </p>
                     </div>
-
+ 
 
 
                 </div>

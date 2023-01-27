@@ -28,9 +28,9 @@ button {
   width: $w-4xl;
   margin: auto;
   @include flex(space-between, none, none);
-  padding: $p-xl;
+  /*padding: $p-xl;*/
   background-color: transparent;
-  width:100%
+  width:100%;
 }
 .side {
   width: $w-sm;
@@ -99,7 +99,7 @@ $backgrouds: (
   &::after {
     content: "";
     @include absolute;
-    width: 50px;
+    width: 170px;
     height: 7px;
     top: 30px;
     background-image: url("../images/heading.png");

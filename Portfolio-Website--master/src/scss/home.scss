@@ -82,19 +82,7 @@
           height:120px
         }
 
-        /*&::after {
-          content: "❝";
-          position: absolute;
-          @include flex(center, center, center);
-          font-size: 40px;
-          bottom: 20px;
-          width: 60px;
-          height: 60px;
-          background: url("/images/back.png");
-          background-size: contain;
-          top:300px
-        }
-        */
+        
         p {
           font-style: italic;
         }

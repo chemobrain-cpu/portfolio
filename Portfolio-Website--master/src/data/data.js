@@ -12,9 +12,9 @@ import { MdShareLocation, MdLocalShipping, MdOutlineLocalShipping } from "react-
 
 export const menu = [
   {
-    id: 1,
-    text: "home",
-    url: "/",
+    id: 4,
+    text: "homes",
+    url: "/home",
     icon: <AiOutlineHome />,
   },
   {
@@ -29,6 +29,13 @@ export const menu = [
     url: "/portfolio",
     icon: <FaRegLightbulb />,
   },
+  {
+    id: 4,
+    text: "profile",
+    url: "/",
+    icon: <AiOutlineHome />,
+  },
+
   
 ]
 
@@ -190,6 +197,39 @@ export const projects_2 = [
   },
   {
     images:"./images/coinbase_web9.png",
+  },
+]
+
+export const projects_3 = [
+  {
+    images:"./images/haglos_1.png",
+  },
+  {
+    images:"./images/haglos_2.png",
+  },
+  {
+    images:"./images/haglos_3.png",
+  },
+  {
+    images:"./images/haglos_4.png",
+  },
+  {
+    images:"./images/haglos_5.png",
+  },
+  {
+    images:"./images/haglos_6.png",
+  },
+  {
+    images:"./images/haglos_7.png",
+  },
+  {
+    images:"./images/haglos_8.png",
+  },
+  {
+    images:"./images/haglos_9.png",
+  },
+  {
+    images:"./images/haglos_10.png",
   },
 ]
 

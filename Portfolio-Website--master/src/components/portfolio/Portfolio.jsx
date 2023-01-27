@@ -1,10 +1,7 @@
 import React from "react";
-import { projects } from "../../data/data";
-import { projects_2 } from "../../data/data";
+import { projects,projects_2,projects_3 } from "../../data/data";
 import { Card } from "./Portfolio-card";
 
-import { Summary } from "../../common/Summary"
-import { Heading } from "../../common/Heading"
 
 export const Portfolio = () => {
     return (
@@ -25,6 +22,14 @@ export const Portfolio = () => {
                     content='Its the web version of my coinbase clone called coincap'
                     images={projects_2}
                     link='https://coincap.cloud'
+                    actiontext='here</a> to view the web version of the project'
+                />
+
+                <Card
+                    title='Tracking web app'
+                    content='Its a web application for a tracking company'
+                    images={projects_3}
+                    link='haglos.onrender.com'
                     actiontext='here</a> to view the web version of the project'
                 />
 
