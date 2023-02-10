@@ -1,0 +1,101 @@
+.carouselCard {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+
+.carouselContent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 180px;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 500;
+    color: #fff;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.carouselCard h1 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px
+}
+
+.carouselCard p {
+    font-size: 17px;
+    color: #fff;
+    width: 90%;
+    margin-bottom: 20px
+}
+
+.carouselCard .buttons-container {
+    display: flex
+}
+
+.carouselCard .buttons-container button {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.carouselCard .buttons-container button:nth-of-type(2){
+    background-color: transparent;
+    color:#fff;
+    border: 1px solid #fff;
+
+}
+
+.carouselCard .buttons-container button:nth-of-type(1){
+    background-color: rgb(65, 42, 128);
+    color:#fff;
+
+}
+
+
+/* hiding this contact bar for smaller screen*/
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 750px) {
+
+    /*  carousel style */
+    .carouselCard {
+        height: 85vh;
+    }
+    .carouselContent {
+        padding-top: 150px;
+    }
+    
+
+    .carouselCard h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+
+
+
+
+    .carouselContent .buttonContainer {
+        width: 100%;
+    }
+
+    .carouselCard .buttons-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carouselCard .buttons-container button {
+        margin-bottom: 20px;
+    }
+
+
+
+}

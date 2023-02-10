@@ -1,0 +1,45 @@
+/*Recent course section*/
+.recent-course-section {
+    background-color: rgb(244, 244, 255);
+    padding-top: 30px;
+    padding-bottom: 90px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.recent-course-section .heading {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.recent-course-section .course-container {
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+}
+
+/* Responsive design*/
+@media screen and (max-width: 750px) {
+    /* recent course section */
+    .recent-course-section {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .recent-course-section .course-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        width:100%;
+    }
+
+    .recent-course-section .course-card {
+        width: 100%;
+        margin-bottom:30px;
+        margin-right: 0px;
+    }
+
+}

@@ -1,0 +1,48 @@
+.feature-card {
+    width: 100%;
+    padding: 15px;
+}
+
+
+ .feature-card .card-head {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature-card span {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: rgb(72, 63, 148);
+    box-shadow: 0 5px 5px -10px rgb(0 0 0 /0.1);
+}
+
+.feature-card .card-head h2 {
+    font-size: 23px;
+    color: rgb(70, 70, 70)
+}
+
+.feature-card .card-tail p {
+    color: rgb(120, 120, 120);
+    font-size: 17px !important;
+    text-align: center;
+}
+
+/* responsive design*/
+@media screen and (max-width: 1024px) {
+    .feature-card .card-tail p {
+        color: rgb(100, 100, 100);
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    
+
+    .feature-card .heading {
+        font-size: 30px;
+
+    }
+
+}

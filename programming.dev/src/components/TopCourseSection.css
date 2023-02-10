@@ -1,0 +1,39 @@
+/*Top course section*/
+.top-course-section {
+    background-color: rgb(244, 244, 255);
+    padding-top: 30px;
+    padding-bottom: 90px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.top-course-section .heading {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: rgb(50, 50, 50)
+}
+
+.top-course-section .course-container {
+    display: flex;
+    overflow-x: scroll;
+}
+
+@media screen and (max-width: 750px) {
+    /*Top course section*/
+
+    .top-course-section {
+        padding-left: 2%;
+        padding-right: 2%;
+
+    }
+
+    .top-course-section .heading {
+        font-size: 30px;
+    }
+
+    .top-course-section .course-card {
+        min-width: 300px;
+    }
+
+}

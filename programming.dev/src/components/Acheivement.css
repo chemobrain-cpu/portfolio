@@ -1,0 +1,82 @@
+/* styling the acheivement section */
+.achievement-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.achievement-section .numbers-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.achievement-section .achievement-container {
+    background-color: rgb(72, 63, 148);
+    padding: 30px;
+    border-radius: 5px;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.achievement-section .heading {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+
+}
+
+.achievement-section .text {
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+.achievement-section .number-container {
+    background-color: rgb(153, 0, 153);
+
+
+}
+
+
+@media screen and (max-width: 1024px){
+    /* styling the acheivement section */
+    .achievement-section {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    
+}
+
+@media screen and (max-width: 750px) {
+     
+    /* styling the acheivement section */
+    .achievement-section {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    .achievement-section .numbers-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .achievement-section .heading {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 30px;
+    
+    
+    }
+
+}

@@ -1,0 +1,62 @@
+.feature-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-bottom: 60px;
+}
+
+.feature-section .feature-container {
+    width: 90%;
+    position: absolute;
+    box-shadow: 0 3px 10px 5px rgb(0 0 0 /0.1);
+    border-radius: 5px;
+    top: -20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
+
+}
+
+.feature-section .heading {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.feature-section .feature-card-container {
+    display: flex;
+}
+
+
+
+
+/* responsive design*/
+@media screen and (max-width: 1024px) {
+    .feature-section {
+        margin-bottom: 250px
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .feature-section {
+        padding-right: 2%;
+        padding-left: 2%;
+        margin-bottom: 400px
+    }
+    .feature-section .feature-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-section .feature-container {
+        width: 96%;
+    }
+
+    
+
+
+}

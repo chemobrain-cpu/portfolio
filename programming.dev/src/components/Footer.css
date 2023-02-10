@@ -1,0 +1,185 @@
+/* Footer */
+
+.footer-section {
+    padding-top: 30px;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color:rgb(240,240,240)
+
+}
+
+.footer-section .footer-inner {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 4%;
+    row-gap: 30px
+}
+
+.footer-section .footer-heading {
+    color: rgb(50, 50, 50);
+    position: relative;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.footer-section .footer-heading:after {
+    position: absolute;
+    content: '';
+    width: 110px;
+    height: 3px;
+    border-radius: 1px;
+    background-color: rgb(82, 64, 131);
+    left: 0px;
+    bottom: 0px;
+
+}
+
+/*  styling the footer-about*/
+
+.footer-section .footer-about {
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 20px;
+}
+
+.footer-section .footer-about span {
+    color: rgb(65, 42, 128);
+    margin-right: 10px;
+}
+
+/*  styling the footer-courses */
+
+.footer-section .courses {
+    display: flex;
+    height: 90px;
+    margin-bottom: 30px;
+
+}
+
+.footer-section .courses .courses-img-con {
+    flex: 1;
+    background-color: rgb(240, 240, 240);
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.footer-section .courses-img-con img {
+    width: 100%
+}
+
+.footer-section .courses-detail-con {
+    flex: 3;
+    padding: 0px;
+}
+
+.footer-section .courses-detail-con h3 {
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+    margin-top: -5px;
+}
+
+.footer-section .courses-detail-con p {
+    font-size: 15px;
+    color: rgb(100, 100, 100)
+}
+
+
+/*  styling the footer-link */
+.footer-section .footer-links {
+    display: none
+}
+
+.footer-section .footer-links ul {
+    list-style-type: none;
+}
+
+
+.footer-section .footer-links li {
+    font-size: 17px;
+    display: flex;
+    list-style-type: none;
+    color: rgb(100, 100, 100);
+    margin-bottom: 20px
+}
+
+/*footer contact */
+
+.footer-section .footer-contact p {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 30px
+}
+
+.footer-section .footer-contact .footer-email {
+    color: rgb(65, 42, 128);
+}
+
+
+/* footer-foot */
+.footer-section .footer-foot {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-section .footer-foot p {
+    font-size: 15px;
+    color: rgb(50, 50, 50)
+}
+
+.footer-section .footer-foot button {
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: rgb(65, 42, 128);
+    color: rgb(240, 240, 240);
+    font-size: 16px;
+}
+
+/* responsive design*/
+@media screen and (max-width: 1024px) {
+    
+
+    /* footer section*/
+    .footer-section .footer-inner {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        column-gap: 4%;
+        row-gap: 30px
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 750px) {
+   
+    /* footer section*/
+
+    .footer-section {
+        padding-top: 30px;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+
+    .footer-section .footer-inner {
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 4%;
+        row-gap: 30px
+    }
+
+    /*  styling footerlink */
+    .footer-section .footer-links {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 560px) {}

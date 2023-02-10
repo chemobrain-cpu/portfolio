@@ -1,0 +1,84 @@
+
+.course-card {
+    min-width: 350px;
+    box-shadow: 0 5px 5px -10px rgb(0 0 0 /0.1);
+    background-color: #fff;
+    border-radius: 5px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.course-card .course-card-head {
+    height: 250px;
+}
+
+.course-card .curtain {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+    position: relative;
+}
+
+.course-card .curtain .trend {
+    background-color: rgb(155, 7, 7);
+    width: 15%;
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.course-card .course-card-tail {
+    padding: 15px;
+
+}
+
+.course-card .about {
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.course-card .pricing {
+    padding-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: space-between;
+    text-align: none;
+}
+
+.course-card .pricing p {
+    font-size: 17px;
+}
+
+.course-card .pricing .duration {
+    color: rgb(100, 100, 100)
+}
+
+
+.course-card .pricing .discount-price {
+    text-decoration: line-through;
+    font-size: 16px
+}
+
+.course-card .pricing .actual-price {
+    font-weight: 600;
+    font-size: 18px
+}
+
+.course-card .course-name {
+    font-weight: 100;
+    color: rgb(150, 150, 150);
+    font-size: 15px;
+}
+
+.course-card .course-title {
+    color: rgb(50, 50, 50);
+    font-size: 17px;
+}

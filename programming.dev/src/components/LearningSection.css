@@ -1,0 +1,86 @@
+/* learning section*/
+.learning-section {
+    padding-top: 30px;
+    padding-bottom: 90px;
+    background-color: rgb(249, 249, 255);
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+
+.learning-section .heading {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: rgb(50, 50, 50);
+    text-shadow: 2px 2px rgb(0 0 0 /0.1);
+}
+
+.learning-section p {
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    text-align: center;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.learning-section .learning-container {
+    display: grid;
+    grid-template-columns: 212px 212px 212px 212px 212px;
+    column-gap: 20px;
+    row-gap: 30px;
+    justify-content: center;
+
+
+}
+
+
+
+/* responsive design*/
+@media screen and (max-width: 1024px) {
+     /* learning section */
+     .learning-section .learning-container {
+        grid-template-columns: 200px 200px 200px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 750px) {
+     /* learning section*/
+     .learning-section {
+        padding-right: 2%;
+        padding-left: 2%;
+
+    }
+
+    .learning-section .heading {
+        width: 60%;
+        margin-right: 20%;
+        margin-left: 20%;
+        font-size: 35px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    .learning-section p {
+        text-align: center;
+        width: 100%;
+        line-height: 30px;
+        margin-right: 0%;
+        margin-left: 0%;
+
+    }
+
+    .learning-section .learning-container {
+        grid-template-columns: 48% 48%;
+    }
+
+}
+
+

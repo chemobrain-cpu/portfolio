@@ -1,0 +1,22 @@
+.learning-section .learning-card {
+    box-shadow: 3px 3px 3px 3px rgba(0 0 0,0.5);
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+}
+
+.learning-section .learning-card img {
+    height: 80px;
+}
+
+.learning-section .learning-card h2 {
+    font-size: 23px;
+    color: rgb(50, 50, 50);
+}
+
+
+
