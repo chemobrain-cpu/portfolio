@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en" style="height: auto; min-height: 100%;">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Trade Center | FasterFX</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.png">
+
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" href="../../dashboard/css/styles.css">
+    <link rel="stylesheet" href="../../dashboard/css/skin.css">
+    <link rel="stylesheet" href="../../dashboard/css/datepicker2.css">
+    <link rel="stylesheet" href="../../dashboard/css/bootstrapextend.css">
+    <link rel="stylesheet" href="../../dashboard/css/bootstrap.css">
+
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="home/css/bootstrap2.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <style type="text/css">
+        @keyframes tawkMaxOpen {
+            0% {
+                opacity: 0;
+                transform: translate(0, 30px);
+                ;
+            }
+
+            to {
+                opacity: 1;
+                transform: translate(0, 0px);
+            }
+        }
+
+        @-moz-keyframes tawkMaxOpen {
+            0% {
+                opacity: 0;
+                transform: translate(0, 30px);
+                ;
+            }
+
+            to {
+                opacity: 1;
+                transform: translate(0, 0px);
+            }
+        }
+
+        @-webkit-keyframes tawkMaxOpen {
+            0% {
+                opacity: 0;
+                transform: translate(0, 30px);
+                ;
+            }
+
+            to {
+                opacity: 1;
+                transform: translate(0, 0px);
+            }
+        }
+
+        #vKaLb6I-1612532963655 {
+            outline: none !important;
+            visibility: visible !important;
+            resize: none !important;
+            box-shadow: none !important;
+            overflow: visible !important;
+            background: none !important;
+            opacity: 1 !important;
+            filter: alpha(opacity=100) !important;
+            -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity1) !important;
+            -moz-opacity: 1 !important;
+            -khtml-opacity: 1 !important;
+            top: auto !important;
+            right: 10px !important;
+            bottom: 90px !important;
+            left: auto !important;
+            position: fixed !important;
+            border: 0 !important;
+            min-height: 0 !important;
+            min-width: 0 !important;
+            max-height: none !important;
+            max-width: none !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            -moz-transition-property: none !important;
+            -webkit-transition-property: none !important;
+            -o-transition-property: none !important;
+            transition-property: none !important;
+            transform: none !important;
+            -webkit-transform: none !important;
+            -ms-transform: none !important;
+            width: auto !important;
+            height: auto !important;
+            display: none !important;
+            z-index: 2000000000 !important;
+            background-color: transparent !important;
+            cursor: auto !important;
+            float: none !important;
+            border-radius: unset !important;
+            pointer-events: auto !important
+        }
+
+        #AuTlqeW-1612532963660.open {
+            animation: tawkMaxOpen .25s ease !important;
+        }
+    </style>
+</head>
+
+<body class="skin-yellow sidebar-mini" style="height: auto; min-height: 100%;background-color: black;">
+    <div class="wrapper" style="height: auto; min-height: 100%;">
+
+        <header class="main-header" style="height:80px">
+
+            <!-- Header Navbar -->
+            <nav class=" navbar-static-top"
+                style="display:flex;align-items: center;justify-content: space-between;width:100%;">
+                <!-- Sidebar toggle button-->
+                <a href="/profile#" class="sidebar-toggle" data-toggle="push-menu" role="button"
+                    style=";color:grey">
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <!-- User Account -->
+                        <li class="dropdown user user-menu">
+                            <a href="/profile#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="../../userImage.png" class="user-image rounded-circle" alt="User Image">
+                            </a>
+                            <ul class="dropdown-menu scale-up">
+                                <!-- Menu Body -->
+                                <li class="user-body">
+                                    <div class="row no-gutters">
+                                        <div class="col-12">
+                                            <a href="/profile"><i class="ion ion-person"></i> My Profile</a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="/logout"><i class="icon-logout"></i> Logout</a>
+                                        </div>
+                                    </div>
+                                    <!-- /.row -->
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Left side column. contains the logo and sidebar -->
+        <aside class="main-sidebar">
+            <!-- sidebar -->
+            <section class="sidebar" style="height: auto;">
+                <!-- Sidebar user panel -->
+                <div class="user-panel">
+                    <div class="ulogo">
+                        <a href="../../tradecenter">
+                            <!-- logo for regular state and mobile devices -->
+                            <b></b>
+                            </b>
+                        </a><b>
+                        </b>
+                    </div><b>
+                        <div class="image">
+                            <div align="center"><img src="../../userImage.png" class="user-image rounded-circle"
+                                    alt="User Image">
+                            </div>
+                        </div>
+                    </b>
+                </div><b>
+                    <!-- sidebar menu -->
+                    <ul class="sidebar-menu tree" data-widget="tree">
+                        <li class="nav-devider"></li>
+                        <li class="active">
+                            <a href="../../tradecenter">
+                                <i class="fa fa-bar-chart"></i> <span>Trade Center</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/profile">
+                                <i class="fa fa-user"></i> <span>Profile</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/deposit">
+                                <i class="fa fa-btc"></i> <span>Deposit</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/withdrawal">
+                                <i class="fa fa-money"></i> <span>Withdrawal</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/upgrade">
+                                <i class="fa fa-arrow-up"></i> <span>Upgrade Account</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/logout">
+                                <i class="fa fa-sign-out"></i> <span>Logout</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </b>
+            </section><b>
+            </b>
+        </aside><b>
+
+
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper" style="min-height: 490px;">
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <h1>
+                        Trade Center
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../../tradecenter"><i class="fa fa-../../dashboard
+                "></i>
+                                ../../dashboard
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item active">Trade Center</li>
+                    </ol>
+                </section>
+
+
+
+
+                <!-- Main content -->
+                <section class="content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="callout callout-success">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5>Welcome: </h5>
+                                    </div>
+                                    <div class="col-8 text-right">
+                                        <h6 class="text-white modal-title">
+                                            <%=user.firstName%>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-7">
+                                        <h5>Balance:</h5>
+                                    </div>
+                                    <div class="col-5 text-right">
+                                        <h6 class="text-white modal-title"><strong>
+                                                <%=user.availableBalance%>
+                                            </strong></h6>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-7">
+                                        <h5>Trading Plan:</h5>
+                                    </div>
+                                    <div class="col-5 text-right">
+                                        <h6 class="text-white modal-title"><strong>
+                                                <label class="label label-warning">
+                                                    <%=user.tradingPlan%>
+                                                </label> </strong></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.col -->
+
+                        <div class="col-md-4">
+                            <div class="callout callout-danger">
+                                <h6>Trade and Mine Bitcoin with Leverage of up to 1:10; Our Bitcoin Spreads allow you to
+                                    take short-term positions on the price of Bitcoin</h6>
+                            </div>
+                        </div>
+                        <!-- /.col -->
+
+                        <div class="col-md-4">
+                            <div class="callout callout-info">
+                                <h6>Mine and Trade binary options and digital options with us. Pick the type of option
+                                    that best suits your trading style and profitability expectations.</h6>
+                            </div>
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    <!-- /.row -->
+
+                    <!-- TradingView Widget BEGIN -->
+                    <div class="tradingview-widget-container" style="width: 100%; height: 72px;">
+
+
+                        <script type="text/javascript"
+                            src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+                                {
+                                    "symbols": [
+                                        {
+                                            "title": "EUR/USD",
+                                            "proName": "FX_IDC:EURUSD"
+                                        },
+                                        {
+                                            "description": "GBP/USD",
+                                            "proName": "FX:GBPUSD"
+                                        },
+                                        {
+                                            "description": "USD/JPY",
+                                            "proName": "FX:USDJPY"
+                                        },
+                                        {
+                                            "description": "NZD/USD",
+                                            "proName": "FX:NZDUSD"
+                                        },
+                                        {
+                                            "description": "AUD/USD",
+                                            "proName": "FX:AUDUSD"
+                                        }
+                                    ],
+                                        "locale": "en"
+                                }
+                            </script>
+                    </div>
+
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="box box-solid bg-dark">
+                                <div class="box-header with-border">
+                                    <h3 class="box-title"><i class="fa fa-money"></i> Place Trade</h3>
+
+                                    <div class="box-tools pull-right">
+                                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                                class="fa fa-minus"></i></button>
+                                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i
+                                                class="fa fa-remove"></i></button>
+                                    </div>
+                                </div>
+                                <!-- /.box-header -->
+                                <div class="box-body">
+                                    <form class="form" method="post" action="/trade">
+                                        <div class="form-group">
+                                            <label>Available Balance ($):</label>
+                                            <input type="hidden" name="plan" value="<%=user.tradingPlan%>">
+
+                                            <input type="hidden" name="amount" value="<%=user.availableBalance%>">
+                                            <input type="text" class="form-control" value="<%=user.availableBalance%>"
+                                                disabled="disabled">
+                                        </div>
+                                        <!-- /.form group -->
+                                        <div class="form-group">
+                                            <label>Trade Type:</label>
+                                            <select class="form-control" name="trade_type" required="">
+                                                <option value="">---Choose Type---</option>
+                                                <option value="Binary">Minning</option>
+                                                <option value="Forex">Forex</option>
+                                            </select>
+                                        </div>
+                                        <!-- /.form group -->
+
+                                        <div class="form-group">
+                                            <button name="trade" type="submit"
+                                                class="btn round btn-success btn-block btn-glow"> TRADE NOW</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- /.box-body -->
+
+                            </div>
+                            <!-- /.box -->
+                        </div>
+
+
+                        <div class="col-lg-8  box">
+                            <div class="box box-solid bg-dark">
+                                <div class="box-header with-border">
+                                    <h3 class="box-title"><i class="fa fa-bar-chart"></i> Trade History</h3>
+
+                                    <div class="box-tools pull-right">
+                                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                                class="fa fa-minus"></i></button>
+                                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i
+                                                class="fa fa-remove"></i></button>
+                                    </div>
+                                </div>
+                                <!-- /.box-header -->
+
+
+                              
+                                    
+
+
+                                        <!-- /.box -->
+                            </div>
+
+                            
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col orange">trade Type</th>
+
+                                        <th scope="col"> Plan </th>
+                                        <th scope="col">amount</th>
+                                        <th scope="col">status</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <% tradeHistory.map(data=>{%>
+                                    <tr>
+                                        <td scope="row">
+                                            <%=data.tradeType%>
+                                        </td>
+                                        <td>
+                                            <%=data.planOfUser%>
+                                        </td>
+                                        <td>
+                                            <%=data.amountToTrade%>
+                                        </td>
+                                        <td>
+                                            <%=data.status%>
+                                        </td>
+                                        
+                                    </tr>
+                                    <% }) %>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+
+                        <div class="col-lg-8  box">
+                            <div class="box box-solid bg-dark">
+                                <div class="box-header with-border">
+                                    <h3 class="box-title"><i class="fa fa-bar-chart"></i> Withdraw History</h3>
+
+                                    <div class="box-tools pull-right">
+                                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                                class="fa fa-minus"></i></button>
+                                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i
+                                                class="fa fa-remove"></i></button>
+                                    </div>
+                                </div>
+                                <!-- /.box-header -->
+
+
+                              
+                                    
+
+
+                                        <!-- /.box -->
+                            </div>
+
+                            
+                            <table class="table " >
+                                <thead>
+                                    <tr>
+                                        <th scope="col orange">Withdraw Type</th>
+
+                        
+
+                                        <th>Amount</th>
+
+                                        <th>Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <% withdrawHistory.map(data=>{%>
+                                    <tr>
+                                        <td scope="row">
+                                            <%=data.withdrawType%>
+                                        </td>
+                                        <td>
+                                            $<%=data.amount%>
+                                        </td>
+                                        <td>
+                                            <%=data.Date%>
+                                        </td>
+                                       
+
+                                        
+                                    </tr>
+                                    <% }) %>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                        <!-- End Row -->
+
+                        <div class="row">
+                            <div class="col-12 col-md-8">
+                                <!-- TradingView Widget BEGIN -->
+                                <div class="tradingview-widget-container">
+                                    <div id="tradingview_16cb2"></div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                                    <script type="text/javascript">
+                                        new TradingView.widget(
+                                            {
+                                                "width": 715,
+                                                "height": 445,
+                                                "symbol": "FX:EURUSD",
+                                                "interval": "1",
+                                                "timezone": "Etc/UTC",
+                                                "theme": "Light",
+                                                "style": "1",
+                                                "locale": "en",
+                                                "toolbar_bg": "#f1f3f6",
+                                                "enable_publishing": false,
+                                                "allow_symbol_change": true,
+                                                "container_id": "tradingview_41847"
+                                            }
+                                        );
+                                    </script>
+
+                                </div>
+                                <!-- TradingView Widget END -->
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <script type="text/javascript">
+                                    baseUrl = "https://widgets.cryptocompare.com/";
+                                    var scripts = document.getElementsByTagName("script");
+                                    var embedder = scripts[scripts.length - 1];
+                                    (function () {
+                                        var appName = encodeURIComponent(window.location.hostname);
+                                        if (appName == "") { appName = "local"; }
+                                        var s = document.createElement("script");
+                                        s.type = "text/javascript";
+                                        s.async = true;
+                                        var theUrl = baseUrl + 'serve/v1/coin/tiles?fsym=BTC&tsyms=USD,EUR,CNY,GBP,GOLD,JPY,AUD,CAD,CHF,CZK';
+                                        s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                                        embedder.parentNode.appendChild(s);
+                                    })();
+                                </script>
+
+                            </div>
+                        </div>
+                        <!-- Active Orders -->
+
+
+
+                </section>
+                <!-- /.content -->
+            </div>
+            <!-- /.content-wrapper -->
+            <footer class="main-footer">
+                © 2012 - 2022 <a href="https://www.FasterFX.net/">FasterFX</a>. All Rights Reserved.
+            </footer>
+
+        </b>
+    </div>
+    <style>
+        .tradingview-widget-copyright {
+            font-size: 13px !important;
+            line-height: 32px !important;
+            text-align: center !important;
+            vertical-align: middle !important;
+            font-family: 'Trebuchet MS', Arial, sans-serif !important;
+            color: #9db2bd !important;
+        }
+
+        .tradingview-widget-copyright .blue-text {
+            color: #2196f3 !important;
+        }
+
+        .tradingview-widget-copyright a {
+            text-decoration: none !important;
+            color: #9db2bd !important;
+        }
+
+        .tradingview-widget-copyright a:visited {
+            color: #9db2bd !important;
+        }
+
+        .tradingview-widget-copyright a:hover .blue-text {
+            color: #38acdb !important;
+        }
+
+        .tradingview-widget-copyright a:active .blue-text {
+            color: #299dcd !important;
+        }
+
+        .tradingview-widget-copyright a:visited .blue-text {
+            color: #2196f3 !important;
+        }
+    </style><b>
+        <!-- ./wrapper -->
+        <script src="../../../../dashboard/js/bootstrap.js"></script>
+        <script src="../../../../dashboard/js/../../dashboard.js"></script>
+        <script src="../../../../dashboard/js/dataTable.js"></script>
+        <script src="../../../../dashboard/js/demo.js"></script>
+        <script src="../../../../dashboard/js/jquery1.js"></script>
+        <script src="../../../../dashboard/js/jquery2.js"></script>
+        <script src="../../../../dashboard/js/popper.js"></script>
+        <script src="../../../../dashboard/js/table.js"></script>
+        <script src="../../../../dashboard/js/template.js"></script>
+
+
+
+        <script src="//code.tidio.co/w2v93kftnthzgxbcqwndemlhkyl9dzin.js" async></script>
+        <!-- /GetButton.io widget -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    </b>
+</body>
+
+</html>
